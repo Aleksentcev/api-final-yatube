@@ -69,7 +69,7 @@ class Follow(models.Model):
         related_name='follower',
         verbose_name='Подписчик'
     )
-    author = models.ForeignKey(
+    following = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
         related_name='following',
@@ -81,6 +81,6 @@ class Follow(models.Model):
         verbose_name_plural = 'Подписки'
 
         constraints = [
-            models.UniqueConstraint(fields=['user', 'author'],
+            models.UniqueConstraint(fields=['user', 'following'],
                                     name='unique_follower'),
         ]
