@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+
+# API для проекта Yatube.
+
+Проект API для социальной сети [Yatube](https://github.com/Aleksentcev/yatube-project.git).
+Позволяет зарегистрироваться, создавать, редактировать и удалять собственные публикации, а так же читать публикации других пользователей и подписываться на них посредством API-запросов. Для неавторизованных пользователей API доступен только для чтения.
+
 ### Как запустить проект:
 
 Клонировать репозиторий и перейти в него в командной строке:
@@ -109,3 +116,9 @@ PATCH .../api/v1/posts/1/
     "group": 1
 }
 ```
+
+### Автор:
+
+Михаил Алексенцев
+
+[![Telegram](https://img.shields.io/badge/aleksentcev-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&link=https://t.me/aleksentcev)](https://t.me/aleksentcev)
